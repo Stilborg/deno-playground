@@ -1,6 +1,15 @@
 {
-    "debug.allowBreakpointsEverywhere": true,
-    "debug.node.autoAttach": "on",
-    "debug.node.showUseWslIsDeprecatedWarning": false,
-    "liveshare.allowGuestDebugControl": true
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.node.autoAttach": "on",
+  "debug.node.showUseWslIsDeprecatedWarning": false,
+  "liveshare.allowGuestDebugControl": true,
+  "deno.enable": true,
+  // "deno.import_map": "./path/to/import_map.json",
+  "deno.unstable": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "axetroy.vscode-deno"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "axetroy.vscode-deno"
+  }
 }
