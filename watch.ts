@@ -15,7 +15,13 @@ function runMain() {
   app = startProcess()
 }
 
-for await (const event of Deno.watchFs(".")) {
+for await (const event of Deno.watchFs([
+  "./static",
+  "./src",
+  "./test",
+  "./main.ts",
+  "./test.ts",
+])) {
   if (event.kind !== "access") {
     if (timeout) {
       clearTimeout(timeout)
