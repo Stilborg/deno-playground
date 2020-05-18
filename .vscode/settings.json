@@ -6,10 +6,7 @@
   "deno.enable": true,
   // "deno.import_map": "./path/to/import_map.json",
   "deno.unstable": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "axetroy.vscode-deno"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "axetroy.vscode-deno"
-  }
+  "editor.formatOnSave": true,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove"
 }
