@@ -19,7 +19,6 @@ To enable and set it up for my specific project and personal preferences, I add 
 ```json
 {
   "Deno.enable": true,
-  // "Deno.import_map": "./path/to/import_map.json",
   "Deno.unstable": false,
   "editor.formatOnSave": true,
   "javascript.format.semicolons": "remove",
