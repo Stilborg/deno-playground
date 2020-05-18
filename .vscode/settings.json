@@ -1,0 +1,6 @@
+{
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.node.autoAttach": "on",
+    "debug.node.showUseWslIsDeprecatedWarning": false,
+    "liveshare.allowGuestDebugControl": true
+}
